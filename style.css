@@ -183,7 +183,7 @@ margin-top: 44px;
 }
 
 #knowledge{
-    margin-top: 120px;
+    margin: 120px;
     
 }
 
@@ -240,3 +240,80 @@ margin-top: 44px;
     line-height: 20px;
     color: #001931;
 }
+
+#early-access .container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 120px;
+}
+
+.container{
+    max-width: 1280px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.container p{
+    font-size: 26px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+footer{
+    background-color: #001931;
+    margin-top: 120px;
+}
+
+#footer-container .footer-contant{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contant img{
+    max-width: 139px;
+}
+
+.footer-container .social{
+    max-width: 220px;
+}
+
+.footer-container .social h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#footer-container .icons a{
+    margin-right: 16px;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    max-width: 20px;
+}
+
+footer p{
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
