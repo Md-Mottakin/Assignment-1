@@ -29,12 +29,15 @@ button:hover{
 }
 
 
+/* Navbar Section */
 nav{
+    width: 85%;
+    max-width: 1360px;
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     padding-top: 16px;
-    margin: 0 120px;
+    margin: 0 auto;
     align-items: center;
 }
 
@@ -43,7 +46,7 @@ nav .menu{
     display: flex;
     gap: 32px;
     max-width: 365px;
-    /* align-items: center; */
+    
 }
 
 nav .menu a{
@@ -53,6 +56,8 @@ nav .menu a{
     font-size: 16px;
 }
 
+
+/* Banner Section */
 #banner{
     margin-top: 16px;
     background: url(./assets/hero-bg.png);
@@ -112,12 +117,15 @@ nav .menu a{
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
-    padding: 16px 16px 16px 46px;
+    padding: 16px 16px 16px 16px;
     border-radius: 4px;
     border: 1px solid #FFFFFF;
+    gap: 10px;
 
 }
 
+
+/* Notes Section */
 #features-section{
 margin-top: 44px;
 }
@@ -182,6 +190,8 @@ margin-top: 44px;
     padding-top: 16px;
 }
 
+
+ /* Second Brain Section */
 #knowledge{
     margin: 120px;
     
@@ -241,6 +251,8 @@ margin-top: 44px;
     color: #001931;
 }
 
+
+/* Early Access Section */
 #early-access .container{
     width: 85%;
     max-width: 1360px;
@@ -257,7 +269,8 @@ margin-top: 44px;
 }
 
 .text-center{
-    text-align: center;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .container h1{
@@ -274,6 +287,8 @@ margin-top: 44px;
     margin-bottom: 24px;
 }
 
+
+/* Footer Section */
 footer{
     background-color: #001931;
     margin-top: 120px;
@@ -302,17 +317,32 @@ footer{
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
+    
+}
+
+#footer-container .icons{
+    margin-top: 16px;
 }
 
 #footer-container .icons a{
     margin-right: 16px;
     background-color: #FFFFFF;
+    color: #000000;
     border-radius: 1000px;
     max-width: 20px;
 }
 
+footer hr{
+    max-width: 1360px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: #E5E7EB;
+    opacity: 20%;
+    
+}
+
 footer p{
-    color: #FFFFFF;
+    color: #FAFAFA;
     text-align: center;
     padding-bottom: 30px;
 }
